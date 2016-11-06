@@ -1,0 +1,23 @@
+<template name="home">
+  {{#each sprite in sprites}}
+    {{> soundButton sprite}}
+  {{/each}}
+</template>
+
+<template name="soundButton">
+  <div class="col s12 m7">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="images/{{name}}.png">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>{{desc}}</p>
+        </div>
+        <div class="card-action center-align">
+          <a class="btn-floating btn-large waves-effect waves-light red js-play"><i class="material-icons">play_arrow</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
