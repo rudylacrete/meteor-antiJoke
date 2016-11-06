@@ -1,0 +1,11 @@
+{
+  "name": "antiJoke",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "howler": "^2.0.1",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
